@@ -25,15 +25,15 @@ li {
   color: white;
 }
 
+.title {
+  font-size: 2em;
+}
+
 .title > a {
   color: white;
 }
 
 @media screen and (min-width: 625px) {
-
-  .title {
-    font-size: 2em;
-  }
 
   #menu {
     display: flex;
@@ -58,15 +58,10 @@ li {
   }
 }
 
-
 @media screen and (max-width: 625px) {
 
   .nav {
     padding: 30px 40px;
-}
-
-  .title {
-    font-size: 2em;
   }
 
   #menu {
