@@ -23,42 +23,61 @@ li {
   align-items: center;
   padding: 20px 50px;
   color: white;
-
-}
-
-.title {
-  font-size: 2em;
 }
 
 .title > a {
   color: white;
 }
 
-.menu {
-  display: flex;
-}
-
-.menu > li {
-  padding: 20px 30px;
-  font-size: 20px;
-}
-
-.fab {
-  font-size: 35px;
-  color: #1DA1F2;
-}
-
-@media screen and (max-width:767px) {
-  .nav {
-    padding: 20px 10px;
-  }
+@media screen and (min-width: 427px) {
 
   .title {
+    font-size: 2em;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding: 20px 30px;
     font-size: 20px;
   }
 
-  .menu > li {
-  padding: 20px 10px;
-  font-size: 15px;
+  li > a {
+    color: white;
+  }
+
+  .fab {
+    font-size: 35px;
+    color: #1DA1F2;
+  }
+
+  .fas {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:426px) {
+
+  .nav {
+    padding: 30px 40px;
+}
+
+  .title {
+    font-size: 2em;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .fab {
+    display : none;
+  }
+
+  .fas {
+    font-size: 2em;
   }
 }
