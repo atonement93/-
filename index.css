@@ -29,7 +29,7 @@ li {
   color: white;
 }
 
-@media screen and (min-width: 427px) {
+@media screen and (min-width: 625px) {
 
   .title {
     font-size: 2em;
@@ -59,7 +59,7 @@ li {
 }
 
 
-@media screen and (max-width:426px) {
+@media screen and (max-width: 625px) {
 
   .nav {
     padding: 30px 40px;
