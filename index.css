@@ -35,7 +35,6 @@ li {
 }
 
 @media screen and (min-width: 625px) {
-
   #menu {
     display: flex;
   }
@@ -47,7 +46,7 @@ li {
 
   .fab {
     font-size: 35px;
-    color: #1DA1F2;
+    color: #1da1f2;
   }
 
   .fas {
@@ -56,7 +55,6 @@ li {
 }
 
 @media screen and (max-width: 625px) {
-
   .nav {
     padding: 30px 40px;
   }
@@ -66,7 +64,7 @@ li {
   }
 
   .fab {
-    display : none;
+    display: none;
   }
 
   .fas {
@@ -83,7 +81,9 @@ li {
     font-size: 25px;
     width: 100%;
     height: 10vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #minimenu > li:hover {
