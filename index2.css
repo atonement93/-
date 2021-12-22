@@ -1,0 +1,15 @@
+: root {
+  --text-color: #f8f8ff;
+  --background-color: #ffb6c1;
+  --accent-color: #fff0f5;
+}
+
+* {
+  maring: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
