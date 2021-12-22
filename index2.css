@@ -61,4 +61,12 @@ a {
   .menu li {
     padding: 20px 0;
   }
+
+  .fas {
+    font-size: 25px;
+    color: var(--text-color);
+    position: absolute;
+    right: 30px;
+    top: 50px;
+  }
 }
