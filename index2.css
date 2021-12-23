@@ -67,8 +67,8 @@ a {
 
   .icon {
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 20px 0;
   }
 
   .fas {
