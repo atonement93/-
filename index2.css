@@ -43,6 +43,10 @@ a {
   color: var(--text-color);
 }
 
+.fab {
+  padding: 0 5px;
+}
+
 .fas {
   display: none;
 }
