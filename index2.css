@@ -51,7 +51,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .nav {
     flex-direction: column;
     align-items: flex-start;
